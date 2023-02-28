@@ -16,12 +16,13 @@ header{
   left: 0;
   z-index: 1;
 }
-header h1{
+header h1 > a{
   color: white;
   border: 8px solid white;
   display: inline-block;
   padding: 6px 12px;
   border-radius: 36px;
+  text-decoration: none;
 }
 .banner{
   position: relative;
